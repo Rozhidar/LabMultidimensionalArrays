@@ -52,27 +52,71 @@
 
 ///
 
-int rows = 3;
-int cols = 3;
+//int rows = 3;
+//int cols = 3;
 
-int[,] matrix = ReadMatrix(rows, cols);
+//int[,] matrix = ReadMatrix(rows, cols);
 
-static int[,] ReadMatrix(int rows, int cols)
-{
-    int[,] resultMatrix = new int[rows, cols];
+//static int[,] ReadMatrix(int rows, int cols)
+//{
+//    int[,] resultMatrix = new int[rows, cols];
 
-    for (int i = 0; i < rows; i++)
-    {
-        int[] input = Console.ReadLine()
-            .Split()
-            .Select(int.Parse)
-            .ToArray();
+//    for (int i = 0; i < rows; i++)
+//    {
+//        int[] input = Console.ReadLine()
+//            .Split()
+//            .Select(int.Parse)
+//            .ToArray();
 
-        for (int j = 0; j < cols; j++)
-        {
-            resultMatrix[i, j] = input[j];
-        }
-    }
+//        for (int j = 0; j < cols; j++)
+//        {
+//            resultMatrix[i, j] = input[j];
+//        }
+//    }
 
-    return resultMatrix;
-}
+//    return resultMatrix;
+//}
+
+//////////////////////////////////////
+
+
+// Print by Columns
+
+//int[,] matrix =
+//{
+//    { 1, 2, 3 },
+//    { 4, 5, 6 },
+//};
+
+//for  (int i = 0; i < matrix.GetLength(1); i++)
+//{
+//    for (int j = 0; j < matrix.GetLength(0); j++)
+//    {
+//        Console.WriteLine(matrix[j, i]);
+//    }
+
+//    Console.WriteLine();
+//}
+
+/////////////////////////////
+
+// Print by Rows
+
+//int[,] matrix =
+//{
+//    { 1, 2, 3 },
+//    { 4, 5, 6 },
+//};
+
+//for (int i = 0; i < matrix.GetLength(0); i++)
+//{
+//    for (int j = 0; j < matrix.GetLength(1); j++)
+//    {
+//        Console.WriteLine(matrix[i, j]);
+//    }
+
+//    Console.WriteLine();
+//}
+
+/////////////////////////////
+
