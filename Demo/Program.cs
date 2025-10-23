@@ -120,3 +120,33 @@
 
 /////////////////////////////
 
+//int[][] jaggedArray = new int[7][];
+
+//jaggedArray[0] = new int[] {1};
+//jaggedArray[1] = new int[] {1, 1};
+
+//for  (int i = 2; i < jaggedArray.Length; i++)
+//{
+//    jaggedArray[i] = new int[jaggedArray[i - 1].Length + 1];
+
+//    jaggedArray[i][0] = 1;
+//    jaggedArray[i][jaggedArray[i].Length - 1] = 1;
+
+//    for (int j = 1; j < jaggedArray[i].Length - 1; j++)
+//    {
+//        jaggedArray[i][j] = jaggedArray[i - 1][j - 1] + jaggedArray[i - 1][j]; 
+//    }
+//}
+
+//for (int i = 0; i < jaggedArray.Length; i++)
+//{
+//    for (int j = 0; j < jaggedArray[i].Length; j++)
+//    {
+//        Console.Write(jaggedArray[i][j] + " ");
+//    }
+
+//    Console.WriteLine();
+//}
+
+////////////////////////////////////
+
